@@ -1,0 +1,129 @@
+nav {
+	font-family: Karla; sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 7px;
+	text-align: center;
+}
+
+a:link {
+	color: #87857D;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7D787C;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #262526;
+	letter-spacing: 3px;
+	transition: 0.4s;
+}
+
+a:active {
+	color: #262526;
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-family: Libre Baskerville; serif;
+	font-size: 34px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 30px;
+	padding: 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: gray;
+
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12px;
+	margin-bottom: 6px;
+	margin-top: 30px;
+}
+
+.article {
+	font-family: Karla; sans-serif;
+	font-size: 13px;
+	margin-left: 3px;
+}
+
+h2 {
+	font-family: Libre Baskerville; serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+button {
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #87857D;
+	letter-spacing: 2px;
+	border: none;
+	background-color: #EDE3EC;
+	width: 300px;
+	height: 40px;
+	outline: none;
+	margin-top: 10px;
+}
+
+button:hover {
+	letter-spacing: 6px;
+	transition: 0.6s;
+}
+
+button:active {
+	background-color: #E0D7DF;
+}
+
+input[type="text"] {
+	border-bottom: 1px solid gray;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	width: 300px;
+	height: 20px;
+	outline: none;
+	margin-top: 7px;
+}
+
+input[type=text]:focus {
+	border-bottom: 1px dotted gray;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	}
+
+
+input[type=text]:hover {
+	border-bottom: 1px dotted gray;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	font-weight: bold;
+}
+
+input[placeholder] {
+	letter-spacing: 2px;
+	text-align: center;
+	opacity: 70%
+}
