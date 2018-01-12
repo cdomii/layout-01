@@ -1,12 +1,26 @@
-section.naglowek {
-	height: 300px;
-
-}
-
 .naglowek {
 	background-image: url('./assets/herobanner.jpg');
-	background-size: cover;
-	background-position: 
+	height: 400px;
+	background-size: 98vw 400px;
+	width: 98vw;
+}
+
+.aboutbg {
+	background-image: url('./assets/about-bg.jpg');
+	background-size: 98vw 846px;
+	height: 846px;
+	width: 98vw;
+}
+
+.logo {
+	background-image: url('./assets/logo.svg');
+	display: inline-block;
+	width: 100px;
+	height: 65px;
+	background-size: 100px 65px;
+	margin-top: 20px;
+	margin-bottom: -22px;
+	vertical-align: -25px;
 }
 
 nav {
@@ -15,12 +29,12 @@ nav {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	word-spacing: 7px;
+	word-spacing: 29px;
 	text-align: center;
 }
 
 a:link {
-	color: #87857D;
+	color: #262526;
 	text-decoration: none;
 }
 
@@ -30,23 +44,34 @@ a:visited {
 }
 
 a:hover {
-	color: #262526;
+	color: #87857D;
 	letter-spacing: 3px;
-	transition: 0.4s;
+	transition: 0.5s;
 }
 
 a:active {
-	color: #262526;
+	color: #87857D;
 	letter-spacing: 3px;
 }
 
 h1 {
 	font-family: Libre Baskerville; serif;
-	font-size: 34px;
+	font-size: 36px;
 	font-style: italic;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	text-align: center;
+	margin-top: -220px;
+	margin-bottom: 220px;
+}
+
+
+.box1 {
+	display: inline-block;
+	vertical-align: super;
+	width: 356px;
+	height: 25px;
+	background-color: white;
 }
 
 ul {
@@ -79,18 +104,22 @@ h2 {
 	font-family: Libre Baskerville; serif;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 24px;
-	letter-spacing: 1px;
+	font-size: 26px;
+	letter-spacing: 2px;
 	background-color: white;
+	margin-bottom: 30px;
+	margin-top: 30px;
 
 }
 
-.box1 {
+.smallbox {
 	display: inline-block;
-	width: 310px;
-	height: 30px;
-	background-color: white;
-	margin-left: 600px;
+	background-color: #E0E1E5;
+	width: 200px;
+	height: 15px;
+	background-size: 200px 15px;
+	vertical-align: baseline;
+
 }
 
 button {
@@ -100,7 +129,7 @@ button {
 	color: #87857D;
 	letter-spacing: 2px;
 	border: none;
-	background-color: #EDE3EC;
+	background-color: #E0E1E5;
 	width: 300px;
 	height: 40px;
 	outline: none;
